@@ -1,0 +1,15 @@
+{
+  "name": "migrate-vercel-postgres-to-neon",
+  "version": "0.1.0",
+  "author": "George MacKerron",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0",
+    "@vercel/postgres": "^0.10.0"
+  },
+  "devDependencies": {
+    "@vercel/edge": "^1.1.3",
+    "@vercel/node": "^3.2.29",
+    "typescript": "^5.0"
+  }
+}
