@@ -1,4 +1,4 @@
-# neon-vercel-postgres-deprecation
+# Migrate `@vercel/postgres` to `@neondatabase/serverless`
 
 This repo demonstrates migrating from Vercel Postgres (now deprecated) to [Neon's serverless driver](https://www.npmjs.com/package/@neondatabase/serverless).
 
