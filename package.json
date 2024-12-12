@@ -5,7 +5,9 @@
   "license": "ISC",
   "dependencies": {
     "@neondatabase/serverless": "^0.10.0",
-    "@vercel/postgres": "^0.10.0"
+    "@types/ws": "^8.5.13",
+    "@vercel/postgres": "^0.10.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@vercel/edge": "^1.1.3",
