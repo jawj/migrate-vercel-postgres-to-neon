@@ -4,12 +4,7 @@
 // 2) add this file to your project
 // 2) change imports from '@vercel/postgres' to this file, './path/to/vercel-postgres-compat'`
 
-import {
-  neon,
-  Pool,
-  Client,
-} from '@neondatabase/serverless';
-
+import { neon, Pool, Client } from '@neondatabase/serverless';
 import type {
   ClientBase,
   ClientConfig,
@@ -19,6 +14,7 @@ import type {
   QueryResultRow,
 } from '@neondatabase/serverless';
 
+export { types } from '@neondatabase/serverless';
 export type {
   Pool,
   Client,
@@ -31,7 +27,6 @@ export type {
   QueryResultBase,
   QueryResultRow,
   FieldDef,
-  types,
 } from '@neondatabase/serverless';
 
 // error.ts
